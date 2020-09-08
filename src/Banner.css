@@ -1,0 +1,42 @@
+.banner {
+  height: 50vh;
+  position: relative;
+  background: url("https://www.fodors.com/wp-content/uploads/2019/08/airbnb-hero-.jpg")
+    center center;
+}
+
+.banner__info {
+  background-color: black;
+  color: white;
+  width: 300px;
+  padding-top: 16vh;
+  padding-left: 50px;
+  padding-right: 50px;
+  /* padding-bottom: 40px; */
+}
+
+.banner__info > button:hover {
+  color: #ff9997;
+  background-color: white;
+}
+
+.banner__info > button {
+  background-color: #ff9997;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-transform: inherit;
+  font-weight: 600;
+}
+
+.banner__searchButton {
+  background-color: white !important;
+  font-weight: 700 !important;
+  text-transform: inherit !important;
+  color: #ff9997 !important;
+}
+
+.banner__search {
+  display: flex;
+  flex-direction: column;
+}
